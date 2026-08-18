@@ -15,8 +15,6 @@ using System.Diagnostics;
 namespace RecipeLoader;
 
 
-// NOTE: RecipeManagers are made for each station once, populated and never reloaded/recreated again,
-// so we're free to remove directives when they're used
 [HarmonyPatch(typeof(RecipeManager), nameof(RecipeManager.AddBuiltinRecipes))]
 [HarmonyPriority(Priority.Last)]
 internal class RecipeManager_BuiltInAdd_Prefix
@@ -117,11 +115,11 @@ internal class RecipeManager_BuiltInAdd_Prefix
           hiddenRecipesFromGroups.AddRange(hiddens.Select(h => new TextAsset(h)));
         }
       }
-      ReplacementRecipeDirectives.RemoveAll(
-          replacement =>
-              replacement.DoneReplacement == true &&
-              replacement.Specifier.StationCategory == statCatPair
-      ); // Removing them so we don't iterate over them again later 
+      // ReplacementRecipeDirectives.RemoveAll(
+      //     replacement =>
+      //         replacement.DoneReplacement == true &&
+      //         replacement.Specifier.StationCategory == statCatPair
+      // ); 
 
       // Inserts 
       HashSet<RecipeSpecifier> doneInserts = [];
@@ -146,9 +144,9 @@ internal class RecipeManager_BuiltInAdd_Prefix
           watch.Stop();
         }
       }
-      InsertRecipeDirectives = [
-          .. InsertRecipeDirectives.Where(i => !doneInserts.Contains(i.Specifier))
-      ]; // Removal for the same reason as for replacements 
+      // InsertRecipeDirectives = [
+      //     .. InsertRecipeDirectives.Where(i => !doneInserts.Contains(i.Specifier))
+      // ];
 
       // Hiddens 
       if (category == InvBaseItem.CreativeCategory.Hide)
