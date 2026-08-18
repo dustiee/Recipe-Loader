@@ -1,0 +1,28 @@
+<recipe name="1953125">
+  <!-- Expands out to 5^9 = 1953125 recipes -->
+  
+  <craftstation type="craft_table" />
+  <category type="Tools" />
+
+  <allowMixed />
+  <ignorethis />
+
+  <row>
+    <item group="Plank" exactCount="1" />
+    <item group="Plank" exactCount="1" />
+    <item group="Plank" exactCount="1" />
+  </row>
+  <row>
+    <item group="Plank" exactCount="1" />
+    <item group="Plank" exactCount="1" />
+    <item group="Plank" exactCount="1" />
+  </row>
+  <row>
+    <item group="Plank" exactCount="1" />
+    <item group="Plank" exactCount="1" />
+    <item group="Plank" exactCount="1" />
+  </row>
+
+  <result name="Bed" exactCount="1" />
+
+</recipe>

@@ -1,0 +1,27 @@
+<recipe name="19683">
+  <!-- Expands out to 3^9 = 19683 recipes -->
+  
+  <craftstation type="craft_table" />
+  <category type="Tools" />
+
+  <allowMixed />
+
+  <row>
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+  </row>
+  <row>
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+  </row>
+  <row>
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+  </row>
+
+  <result name="Bed" exactCount="1" />
+
+</recipe>

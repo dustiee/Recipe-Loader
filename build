@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+version="1.0.0"
+name="RecipeLoader"
+
+if dotnet build -c Release; then
+	rm Release*.zip
+	zip -j Release${version}.zip ./bin/Release/${name}.dll
+
+	echo "OK"
+else
+	echo "Build failed"
+fi

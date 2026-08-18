@@ -1,0 +1,23 @@
+<recipe name="I shouldn't exist">
+  
+  <category type="Tools" />
+
+  <row>
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+  </row>
+  <row>
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+  </row>
+  <row>
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+    <item group="Window" exactCount="1" />
+  </row>
+
+  <result name="Bed" exactCount="1" />
+
+</recipe>

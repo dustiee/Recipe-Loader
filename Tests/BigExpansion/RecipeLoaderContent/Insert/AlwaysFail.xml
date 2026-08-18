@@ -1,0 +1,26 @@
+<recipe name="Bed">
+  <!-- This should expand out to about 37^9 recipes, which is bigger than the size of an int and should always fail -->
+  <craftstation type="craft_table" />
+  <category type="Tools" />
+
+  <allowMixed />
+
+  <row>
+    <item group="Record" exactCount="1" />
+    <item group="Record" exactCount="1" />
+    <item group="Record" exactCount="1" />
+  </row>
+  <row>
+    <item group="Record" exactCount="1" />
+    <item group="Record" exactCount="1" />
+    <item group="Record" exactCount="1" />
+  </row>
+  <row>
+    <item group="Record" exactCount="1" />
+    <item group="Record" exactCount="1" />
+    <item group="Record" exactCount="1" />
+  </row>
+
+  <result name="Bed" exactCount="1" />
+
+</recipe>

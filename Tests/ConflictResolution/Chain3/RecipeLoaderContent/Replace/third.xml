@@ -1,0 +1,20 @@
+<recipe name="First">
+  <craftstation type="craft_table" />
+  <category type="Tools" />
+  <row>
+    <item name="Stone" exactCount="1" />
+    <item name="Stone" exactCount="1" />
+    <item name="Stone" exactCount="1" />
+  </row>
+  <row>
+    <item />
+    <item name="Stick" exactCount="1" />
+    <item />
+  </row>
+  <row>
+    <item />
+    <item name="Stick" exactCount="200" />
+    <item />
+  </row>
+  <result name="Dig" exactCount="200" />
+</recipe>

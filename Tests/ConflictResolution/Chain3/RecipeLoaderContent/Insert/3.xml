@@ -1,0 +1,21 @@
+<recipe name="Overwrite me">
+  <craftstation type="craft_table" />
+  <category type="Tools" />
+  <overwrite />
+  <row>
+    <item />
+    <item name="Stick" exactCount="1" />
+    <item />
+  </row>
+  <row>
+    <item name="Stick" exactCount="1" />
+    <item name="Stick" exactCount="1" />
+    <item name="Stick" exactCount="1" />
+  </row>
+  <row>
+    <item />
+    <item name="Stick" exactCount="1" />
+    <item />
+  </row>
+  <result name="Dig" exactCount="200" />
+</recipe>

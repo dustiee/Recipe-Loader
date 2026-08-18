@@ -1,0 +1,16 @@
+<recipe name="I shouldn't exist">
+
+   <craftstation type="furnace" />
+  <category type="Tools" />
+
+  <row>
+    <item name="Bark" exactCount="1" />
+  </row>
+  <row>
+    <item name="Energy" exactCount="1" />
+  </row>
+
+
+  <result name="water" exactCount="1" />
+
+</recipe>

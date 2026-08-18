@@ -1,0 +1,12 @@
+<recipe name="I shouldn't exist">
+
+   <craftstation type="craft" />
+  <category type="Tools" />
+
+  <row>
+    <item name="Bark" exactCount="1" />
+  </row>
+
+  <result name="Hello" exactCount="1" />
+
+</recipe>

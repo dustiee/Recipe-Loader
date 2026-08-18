@@ -1,0 +1,8 @@
+<recipe name="I shouldn't exist">
+
+   <craftstation type="craft" />
+  <category type="Tools" />
+
+  <result name="Bed" exactCount="1" />
+
+</recipe>
