@@ -13,8 +13,8 @@ namespace RecipeLoader;
 
 // NOTE:
 //I don't really intend for Recipe Loader to have much of a public API, the methods here are exposed because they can be useful
-//for some really specific things like the General Exporter utility to convert recips into Recipe Loader ones,
-//but aside from that the main purpose of Recipe Loader is to load pre-made recipes in specified.
+//for some really specific things like the General Exporter utility to convert recipes into Recipe Loader ones,
+//but aside from that the main purpose of Recipe Loader is to load pre-made recipes in specified 
 // directories.It's not supposed to interact with other plugins very much at run-time.
 //
 // NOTE:

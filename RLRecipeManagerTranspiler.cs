@@ -9,7 +9,7 @@ using static RecipeLoader.LogTools;
 
 namespace RecipeLoader;
 
-// Forces parse to use a cached XmlSerializer instead of making a new one single time
+// Forces parse to use a cached XmlSerializer instead of making a new one every single time
 // This patch doesn't do anything other than making the method more performant
 //
 // All it does it change this:
