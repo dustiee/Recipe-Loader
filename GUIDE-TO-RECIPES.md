@@ -13,7 +13,7 @@
 ## Definitions 
 
 0. *Valid .xml file:* A file that has the case sensitive extension ".xml" and passes validation. (I.e, conforms 
-  to the requirements and limits set out as per section **RECIPES**)
+  to the requirements and limits set out as per section **Required Directive Xml Structure**)
 0. *Valid subdirectory:* A directory that is a direct child of a Content Folder and is named exactly one of:
   - Delete 
   - Replace 
