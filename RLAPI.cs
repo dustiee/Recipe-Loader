@@ -174,7 +174,7 @@ public class API
 
   /// <summary>
   /// Maps a string to an InvBaseItem.CreativeCategory
-  /// Input is case in-sensitive. Valid values are the same as those specified in ExampleStructure/RFREcipes/README.md, Element "category", Attribute "name"
+  /// Input is case in-sensitive. 
   /// Returns null if input is invalid.
   ///</summary>
   public static InvBaseItem.CreativeCategory? StringToCategoryMapper(string input)
